@@ -10,6 +10,6 @@ public class hash {
     }
 
     public static void getHash(HashMap<String, Random> hashget, String full_name_get) {
-        System.out.println(hash.get(full_name_get));
+        System.out.println(hashget.get(full_name_get));
     }
 }
