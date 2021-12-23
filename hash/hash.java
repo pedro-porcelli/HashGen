@@ -9,7 +9,7 @@ public class hash {
         hashCreator.put(full_name, hsh);
     }
 
-    public static void getHash(HashMap<String, Random> hash, String full_name_get) {
+    public static void getHash(HashMap<String, Random> hashget, String full_name_get) {
         System.out.println(hash.get(full_name_get));
     }
 }
