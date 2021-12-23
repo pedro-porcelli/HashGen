@@ -1,4 +1,4 @@
-package hash;
+package HashGen.hash;
 
 import java.util.*;
 
