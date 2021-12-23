@@ -8,8 +8,4 @@ public class hash {
         Random hsh = new Random();
         hashCreator.put(full_name, hsh);
     }
-
-    public static void getHash(HashMap<String, Random> hashget, String full_name_get) {
-        System.out.println(hashget.get(full_name_get));
-    }
 }
